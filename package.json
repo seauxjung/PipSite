@@ -2,7 +2,7 @@
   "name": "pipsite",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/seauxjung/PipSite.git"
   },
-  "author": "",
+  "author": "Soyoung Lim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/seauxjung/PipSite/issues"
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/seauxjung/PipSite#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0"
   }
 }
