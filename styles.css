@@ -3,10 +3,31 @@
     padding-right: 30px;
 }
 
-.navbar {
-    padding-top: 0;
-}
+
 
 .jumbotron {
     padding-bottom: 0;
+    margin-bottom: 0px;
+    padding-top: 0;
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+#footerList {
+    padding-left: 0px;
+    margin-left: 50px;
+    padding-right: 0px;
+    
+}
+
+.img-thumbnail{
+border: 0;
+}
+
+.carousel-inner {
+    
+    
 }
