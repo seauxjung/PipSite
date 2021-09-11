@@ -24,10 +24,9 @@ footer {
 }
 
 .img-thumbnail{
-border: 0;
+    border: 0;
 }
 
-.carousel-inner {
-    
-    
+h3 , a {
+    color: black;
 }
