@@ -4,7 +4,6 @@
 }
 
 
-
 .jumbotron {
     padding-bottom: 0;
     margin-bottom: 0px;
@@ -29,4 +28,21 @@ footer {
 
 h3 , a {
     color: black;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+#termsAndConditions {
+    width: 80%;
+    margin: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#wineMenu {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
