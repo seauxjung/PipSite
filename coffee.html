@@ -8,51 +8,132 @@
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" />
     </head>
     <body>
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row">
                     <div class= "col-2 mx-auto">
-                        <img src="images/piplogo.jpeg" class= "img-thumbnail"/>
+                      <a href="index.html"><img src="images/piplogo.jpeg" class= "img-thumbnail"/></a>
                     </div>
                 </div>
             </div>
         </header>
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html"><img src="images/piplogo.jpeg" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pipNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="pipNavbar">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="coffee.html">COFFEE <span class="sr-only">(current)</span></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="collapse navbar-collapse" id="pipNavbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="coffee.html">COFFEE <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="clay.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  CLAY
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="clay.html">Clay</a>
+                  <a class="dropdown-item" href="clayClasses.html">Classes</a>
+                  <a class="dropdown-item" href="clayStudioSchedule.html">Studio Schedule</a>
+                  <a class="dropdown-item" href="clayTypes.html">Clay Types + Pricing</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="wine.html">WINE</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="clay.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    CLAY
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="clay.html">Clay</a>
-                    <a class="dropdown-item" href="clayClasses.html">Classes</a>
-                    <a class="dropdown-item" href="clayStudioSchedule.html">Studio Schedule</a>
-                    <a class="dropdown-item" href="clayTypes.html">Clay Types + Pricing</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="wine.html">WINE</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="shop.html">SHOP</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-          Coffee page!
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">SHOP</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+        <h2 class="text-align: text-center">Drinks</h2>
+        <br>
+        <div class="container text-align: text-left">
+          <div class="row">
+          <table class="table table-hover mx-auto">
+            <tbody>
+              <tr>
+                <td class= "col-6 text-align: text-right">Latte</td>
+                <td class= "col-6">$3.75/$4.25</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Mocha</td>
+                <td>$4.25/$4.75</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Cappuccino</td>
+                <td>$3.75</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Americano</td>
+                <td>$2.50</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Macchiato</td>
+                <td>$3.75</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Cortado</td>
+                <td>$3.75</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Cold Brew</td>
+                <td>$4.25/$5</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Espresso</td>
+                <td>$2</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Drip</td>
+                <td>$2.25/$2.5</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Espresso Tonic</td>
+                <td>$3.25</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Coffee of the Month</td>
+                <td>+.50</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Chai Latte</td>
+                <td>$4.25/$4.75</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Cocoa</td>
+                <td>$2.75/$3.25</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Hot Tea</td>
+                <td>$2.5</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Iced Tea</td>
+                <td>$2.25/$2.5</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Energi Bunni</td>
+                <td>$4</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Mexican Coke</td>
+                <td>$2.5</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Jarritos</td>
+                <td>$2.5</td>
+              </tr>
+              <tr>
+                <td class= "col-6 text-align: text-right">Topo Chico</td>
+                <td>$2.5</td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        </div>
 
           <footer class="site-footer font-small">
             <div class="container" id="footerList">

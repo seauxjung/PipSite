@@ -4,7 +4,7 @@
 }
 
 
-.jumbotron {
+header, .jumbotron{
     padding-bottom: 0;
     margin-bottom: 0px;
     padding-top: 0;
@@ -45,4 +45,21 @@ body {
     width: 100%;
     margin-top: 75px;
     margin-bottom: 75px;
+}
+
+div table {
+    margin-bottom: 75px;
+    max-width: 80%;
+}
+
+td {
+    max-width: 150px;
+}
+
+#locationCard {
+    max-width: 90%;
+}
+
+.container-fluid {
+    margin-bottom: 5px;
 }
