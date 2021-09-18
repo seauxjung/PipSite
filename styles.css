@@ -79,3 +79,17 @@ td {
     max-width: 50%;
     border: none;
 }
+
+#accordion {
+   max-width: 80%;
+}
+
+#clayTypeCard {
+    max-width: 80%;
+    margin-bottom: 50px;
+}
+
+#clayCard {
+    border: none;
+}
+
