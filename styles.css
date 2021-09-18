@@ -63,3 +63,19 @@ td {
 .container-fluid {
     margin-bottom: 5px;
 }
+
+.container , #clayBanner {
+    position: relative;
+    text-align: left;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+#clayPolicies {
+    max-width: 50%;
+    border: none;
+}
